@@ -1,0 +1,21 @@
+{
+  "apiEndpoint": "https://your.bluelucy.com/api",
+  "username": "<ApplicationUsername>",
+  "password": "<ApplicationPassword>",
+  "organisationId": 1,
+  "inputData": {
+    "media_id": "M987TV",
+    "filename": "test_media.mov",
+    "content_type": "video",
+    "title": "Test Title",
+    "title_id": "X123",
+    "vendor": "Blue Lucy",
+    "vendor_id": 6,
+    "rights_expire": "2024-09-01T00:00:00"
+  },
+  "runState": {},
+  "arguments": {
+    "group_ids": [ 1 ]
+  },
+  "completeOnly": false
+}

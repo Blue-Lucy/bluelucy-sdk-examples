@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blidget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <guid>6939d4d3-b141-4fe6-b804-8998f35ce033</guid>
+  <name>Custom Data Example</name>
+  <category>Example Code</category>
+  <icon>generic-icon.svg</icon>
+  <documentation>
+    # Purpose
+    
+    Parses custom JSON input into a defined `CustomIO` type.
+    
+    # Usage
+    
+    Can be used as an entry point in a workflow triggered with the defined custom JSON payload.
+  </documentation>
+  <input>custom</input>
+  <output>assets</output>
+  <connectionPaths>primary</connectionPaths>
+  <entryPoint>CustomWorkflowIOData.dll</entryPoint>
+  <parameters>
+	  <parameter>
+		  <name>group_ids</name>
+		  <type>groups</type>
+		  <displayName>Group Permissions</displayName>
+		  <description>List of groups to apply to created placeholders</description>
+	  </parameter>
+  </parameters>
+</blidget>
